@@ -8,6 +8,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  .avatar {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+  }
 }
 
 /* Logo */
@@ -16,11 +22,6 @@
 }
 
 /* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
 
 /* Right section */
 .navbar-wagon-right {
@@ -39,10 +40,11 @@
 .navbar-wagon-link {
   color: #616668;
   font-size: 14px;
-}
-.navbar-wagon-link:hover {
-  color: #da552f;
-  text-decoration: none;
+
+  &:hover {
+    color: #da552f;
+    text-decoration: none;
+  }
 }
 
 /* Dropdown menu */
